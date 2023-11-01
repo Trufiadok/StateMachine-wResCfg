@@ -50,12 +50,12 @@ The transition table is organized by 'TransitionItem'. Transitions that take pri
 
 Transition (TransitionItem) in Inspector
 
-![enter image description here](https://github.com/Trufiadok/State-Machine-wResCfg/blob/main/Docs/OpenedTransitionItem.png)
+![enter image description here](https://github.com/Trufiadok/StateMachine-wResCfg/blob/main/Docs/OpenedTransitionItem.png)
 
 State in Inspector
 
-![enter image description here](https://github.com/Trufiadok/State-Machine-wResCfg/blob/main/Docs/OpenedState.png)
+![enter image description here](https://github.com/Trufiadok/StateMachine-wResCfg/blob/main/Docs/OpenedState.png)
 
 Condition (ConditionUsage) in Inspector
 
-![enter image description here](https://github.com/Trufiadok/State-Machine-wResCfg/blob/main/Docs/OpenedConditionUsage.png)
+![enter image description here](https://github.com/Trufiadok/StateMachine-wResCfg/blob/main/Docs/OpenedConditionUsage.png)
