@@ -1,0 +1,14 @@
+Licensing information for content in the StateMachine-wResCfg repository
+-----------------------------------------------------------------------
+
+Comment: StateMachine-wResCfg
+Copyright: 2023, Trufiadok (trufiadokgamedev@gmail.com)
+License: MIT
+
+
+# Licensing details for thirdparty sources:
+
+Comment: Unity Open Project #1: Chop Chop
+Copyright: 2020, Unity Open Project #1: Chop Chop
+Unity and UOP1 community
+License: Apache-2.0

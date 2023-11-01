@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            // "label": "build",
+            // "command": "e:/Godot_v4.1.1-stable_mono_win64/Godot_v4.1.1-stable_mono_win64.exe",
+            // "type": "process",
+            // "args": [
+            //     "--build-solutions",
+            //     "--path",
+            //     "${workspaceRoot}",
+            //     "--no-window",
+            //     "-q"
+            // ],
+            // "problemMatcher": "$msCompile"
+
+            "label": "build",
+            "command": "dotnet",
+            "type": "shell",
+            "args": [
+                "build",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "silent",
+            },
+            "problemMatcher": "$msCompile"           
+        }
+    ]
+}

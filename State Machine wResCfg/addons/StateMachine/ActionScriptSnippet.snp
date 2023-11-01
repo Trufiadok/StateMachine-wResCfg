@@ -1,0 +1,30 @@
+using Godot;
+using StateMachine;
+using StateMachine.Resources;
+
+[GlobalClass, Icon("res://addons/StateMachine/Icons/SM-A-000.svg")]
+public partial class ${1:SCRIPTNAME}RES : StateActionRES
+{
+	protected override StateAction CreateAction() => new ${1:SCRIPTNAME}();
+}
+
+public partial class ${1:SCRIPTNAME} : StateAction
+{
+	protected new ${1:SCRIPTNAME}RES OriginRES => (${1:SCRIPTNAME}RES)base.OriginRES;
+
+	public override void Awake(StateMachine.StateMachine stateMachine)
+	{
+	}
+	
+	public override void OnUpdate()
+	{
+	}
+	
+	public override void OnStateEnter()
+	{
+	}
+	
+	public override void OnStateExit()
+	{
+	}
+}

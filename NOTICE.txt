@@ -1,0 +1,16 @@
+StateMachine-wResCfg is licensed under the MIT License
+
+The StateMachine-wResCfg Godot plugin is based on the state machine
+part of 'Unity Open Project #1: Chop Chop'.
+
+The source code of the state machine has been modified as necessary
+to make it work in the Godot environment.
+
+This software contains code derived from 'Unity Open Project #1: Chop Chop'.
+
+'Unity Open Project #1: Chop Chop' Apache-2.0 (http://www.apache.org/licenses/)
+Copyright 2020 Unity and UOP1 community.
+https://github.com/UnityTechnologies/open-project-1
+
+
+

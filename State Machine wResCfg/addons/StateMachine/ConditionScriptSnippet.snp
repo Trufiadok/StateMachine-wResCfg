@@ -1,0 +1,31 @@
+using Godot;
+using StateMachine;
+using StateMachine.Resources;
+
+[GlobalClass, Icon("res://addons/StateMachine/Icons/SM-C-000.svg")]
+public partial class ${1:SCRIPTNAME}RES : StateConditionRES
+{
+	protected override Condition CreateCondition() => new ${1:SCRIPTNAME}();
+}
+
+public partial class ${1:SCRIPTNAME} : Condition
+{
+	protected new ${1:SCRIPTNAME}RES OriginRES => (${1:SCRIPTNAME}RES)base.OriginRES;
+
+	public override void Awake(StateMachine.StateMachine stateMachine)
+	{
+	}
+	
+	protected override bool Statement()
+	{
+		return true;
+	}
+	
+	public override void OnStateEnter()
+	{
+	}
+	
+	public override void OnStateExit()
+	{
+	}
+}
